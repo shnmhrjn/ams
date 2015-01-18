@@ -1,0 +1,219 @@
+2015-01-18 09:55:40 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /ats/add
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-18 09:55:52 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 16]
+2015-01-18 09:55:52 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 09:59:18 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 16]
+2015-01-18 09:59:18 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:02:24 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 82]
+2015-01-18 10:02:24 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /ats/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 82)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 82, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/opt/lampp/htdo...', 82, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:03:11 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 82]
+2015-01-18 10:03:11 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 82)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/opt/lampp/htdo...', 82, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/opt/lampp/htdo...', 82, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:03:52 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 17]
+2015-01-18 10:03:52 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:09:55 Error: Fatal Error (1): Call to a member function allowMethod() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 17]
+2015-01-18 10:09:55 Error: [FatalErrorException] Call to a member function allowMethod() on a non-object
+Request URL: /ats/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:12:29 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 17]
+2015-01-18 10:12:29 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:17:03 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 17]
+2015-01-18 10:17:03 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:17:06 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 17]
+2015-01-18 10:17:06 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:20:09 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 16]
+2015-01-18 10:20:09 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:20:43 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 16]
+2015-01-18 10:20:43 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:23:02 Error: Fatal Error (4): syntax error, unexpected '<' in [/opt/lampp/htdocs/ats/app/View/Users/add.ctp, line 9]
+2015-01-18 10:23:02 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /ats/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 9, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 9, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:24:11 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [/opt/lampp/htdocs/ats/app/Model/User.php, line 38]
+2015-01-18 10:24:11 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /ats/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', '/opt/lampp/htdo...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', '/opt/lampp/htdo...', 38, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', '/opt/lampp/htdo...', 38, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:26:53 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 17]
+2015-01-18 10:26:53 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:26:59 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 17]
+2015-01-18 10:26:59 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:28:40 Error: Fatal Error (1): Call to a member function login() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 87]
+2015-01-18 10:28:40 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 87, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 87, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:31:44 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /ats/login
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-18 10:31:58 Error: Fatal Error (1): Call to a member function login() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 87]
+2015-01-18 10:31:58 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 87, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 87, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:33:36 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/ats/app/Controller/UsersController.php, line 17]
+2015-01-18 10:33:36 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /ats/
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 17, Array)
+#3 /opt/lampp/htdocs/ats/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-18 10:38:18 Error: [MissingViewException] View file "/opt/lampp/htdocs/ats/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/ats/app/View/Users/index.ctp',
+)
+Request URL: /ats/users
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/ats/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/ats/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /opt/lampp/htdocs/ats/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/ats/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-18 10:38:46 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /ats/login
+Stack Trace:
+#0 /opt/lampp/htdocs/ats/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
